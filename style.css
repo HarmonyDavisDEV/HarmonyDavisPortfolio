@@ -225,6 +225,7 @@ footer {
 /* Mobile */
 
 @media (max-width: 700px) {
+    
 
     nav {
         flex-direction: column;
@@ -237,25 +238,9 @@ footer {
         justify-content: center;
     }
 
-    .hero {
-        flex-direction: column;
-        text-align: center;
-        padding-top: 60px;
-    }
+/* Profile photo and hero layout */
 
-    .hero h1 {
-        font-size: 40px;
-    }
-
-    .hero-buttons {
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    .projects-grid {
-        grid-template-columns: 1fr;
-    }
-}.hero {
+.hero {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -280,4 +265,20 @@ footer {
     border-radius: 50%;
     border: 5px solid white;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 700px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-image {
+        flex: none;
+    }
+
+    .hero-image img {
+        width: 250px;
+        height: 250px;
+    }
 }
