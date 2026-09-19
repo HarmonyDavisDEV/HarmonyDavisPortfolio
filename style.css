@@ -252,15 +252,15 @@ footer {
 }
 
 .hero-image {
-    flex: 0 0 350px;
+    flex: 0 0 380px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .hero-image img {
-    width: 350px;
-    height: 350px;
+    width: 380px;
+    height: 380px;
     object-fit: cover;
     border-radius: 50%;
     border: 5px solid white;
